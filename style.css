@@ -1,0 +1,267 @@
+.location {
+    color: white;
+    font-size: 90px;
+    font-family: Readex Pro;
+    font-weight: bold;
+    align-self: flex-start;
+    left: 75px;
+    top: 75px;
+    position: absolute;
+}
+
+.temperature {
+    height: 100px;
+    width: 550px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+}
+
+.current {
+    color: white;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 245px;
+    font-family: Readex Pro;
+    align-self: flex-start;
+    left: 180px;
+    top: 130px;
+    position: absolute;
+    line-height: auto;
+    border-style: hidden;
+    width: 170px;
+    display: flex;
+}
+
+.weatherIcon {
+    align-self: flex-start;
+    left: 610px;
+    top: 130px;
+    position: absolute;
+    line-height: auto;
+    border-style: hidden;
+    display: flex;
+}
+
+.details {
+    color: white;
+    font-size: 50px;
+    left: 160px;
+    top: 410px;
+    text-align: center;
+    font-family: Readex Pro;
+    font-weight: 400;
+    font-style: bold;
+    align-self: flex-start;
+    position: absolute;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    width: 350px;
+    display: flex;
+}
+
+.weather-container {
+    background: white;
+    padding: 20px;
+    width: 960px;
+    height: 500px;
+    border: 10px white;
+    border-style: outset;
+    border-radius: 45px;
+    top: 655px;
+    left: 70px;
+    position: absolute;
+}
+
+.today-button {
+    background: lightslategrey;
+    padding: 10px;
+    width: 435px;
+    height: 70px;
+    border: 8px slategrey;
+    border-style: solid;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.today {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+    font-family: Readex Pro;
+    font-weight: bold;
+}
+
+.ten-day-button{
+    background: white;
+    padding: 10px;
+    width: 435px;
+    height: 70px;
+    border: 8px lightgrey;
+    border-style: solid;
+    border-radius: 30px;
+    left: 500px;
+    position: absolute;
+}
+
+.ten-day {
+    color: lightslategrey;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 55px;
+    font-family: Readex Pro;
+    font-weight: bold;
+}
+
+.weather-slot {
+    background: white;
+    padding: 10px;
+    width: 175px;
+    height: 330px;
+    border: 9px lightgrey;
+    border-style: solid;
+    border-radius: 50px;
+    top: 150px;
+    position: absolute;
+}
+
+.hour0 {
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hour1{
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hour2 {
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hour3 {
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.p-container {
+    background: white;
+    padding: 20px;
+    width: 960px;
+    height: 290px;
+    border: 10px white;
+    border-style: outset;
+    border-radius: 45px;
+    top: 1235px;
+    left: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.widget {
+    background: white;
+    padding: 20px;
+    width: 260px;
+    height: 250px;
+    border: 10px white;
+    border-style: outset;
+    border-radius: 45px;
+    top: 1610px;
+    left: 70px;
+    position: absolute;
+}
+
+.pollen {
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.humidity {
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.UVIndex {
+    font: Rubik;
+    color: lightslategrey;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pin {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    left: 410px;
+    top: 2340px;
+    position: absolute;
+}
+.pagination {
+    height: 60px;
+    width: 500px;
+    top: 1060px;
+    left: 260px;
+    gap: 50px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.circle {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    top: 1300px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.message {
+    color: slategrey;
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+    font-family: Readex Pro;
+    font-weight: 300;
+    left: 440px;
+    top: 2015px;
+    line-height: 0.975;
+    position: absolute;
+    line-height: auto;
+    width: 580px;
+    display: flex;
+}
+
+

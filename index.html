@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CoolWeather Home Screen</title>
+
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Readex Pro">
+ 	<link href='https://fonts.googleapis.com/css?family=Readex Pro' rel='stylesheet'>
+	<style>
+		body {
+	    font-family: 'Readex Pro';
+	</style>
+
+</head>
+
+<body>
+	<img src="coolWeatherBG.png">
+
+	<div class="location"> <i class="fa fa-map-marker"></i></i>&thinsp;&thinsp;PHILADELPHIA</div>
+
+	<img src="add.png" style="position: absolute; width: 120px; height: auto; top: 65px; left: 965px;">
+
+  	<div class='temperature'>
+        <div class='current'>
+            83°</div>
+        <div class='details'>
+            H: 95° &nbsp; L: 73°<br>Feels Like: 86°
+        </div>
+        <div class="weatherIcon"><img src="rain.png" style="width: 400px; height: auto"></div>
+    </div>
+
+    <!-- main weather/temperature widget -->
+  	<div class="weather-container">
+  		<div class='today-button'>
+  			<div class='today'>TODAY</div>
+  		</div>
+  		<div class='ten-day-button'>
+  			<div class='ten-day'>THIS WEEK</div>
+  		</div>
+
+  		<div class='weather-slot'>
+  			<div class='hour0'>NOW
+  			<img src="heavy-rain.png" class="center" style="width: 120px; height: auto; padding: 25px;">
+  			<p class="center" style="color: lightslategrey; font-size:80px; font-weight: 350px; transform: translateY(-110%) translateX(10px);"> 83° </p>
+  		</div>
+
+ 		</div>
+ 		<div class='weather-slot' style="left: 265px;">
+  			<div class='hour1'>10 AM
+  			<img src="light-rain.png" class="center" style="width: 120px; height: auto; padding: 20px;">
+ 			<p class="center" style="color: lightslategrey; font-size:80px; font-weight: 350px; transform: translateY(-102%) translateX(10px);"> 84° </p>
+  			</div>
+ 		</div>
+ 		<div class='weather-slot' style="left: 510px;">
+  			<div class='hour2'> 11 AM
+  				<img src="cloud.png" class="center" style="width: 120px; height: auto; padding: 25px;">
+  				<p class="center" style="color: lightslategrey; font-size:80px; font-weight: 350px; transform: translateY(-115%) translateX(10px);"> 87° </p>
+  			</div>
+ 		</div>
+ 		<div class='weather-slot' style="left: 750px;">
+  			<div class='hour3'> 12 PM
+			<img src="partly-cloudy.png" class="center" style=" width: 120px; height: auto; padding: 10px;">
+			<p class="center" style="color: lightslategrey; font-size:80px; font-weight: 350px; transform: translateY(-90%) translateX(10px);"> 89° </p>
+  		</div>
+ 		</div>
+  	</div>
+
+  	<!-- precipitation widget -->
+  	<div class='p-container'>
+  		<p style="color: lightslategrey; font-size: 48px; transform: translateY(-75%) translateX(-48%); position: absolute"> Rain will stop in 45 minutes!<p>
+  		<img src='umbrella.png' style="width: 100px; height:auto; right:15px; position: absolute; transform: translateY(-20%) ">
+  		<br>
+  		<img src='rain-widget.png' class="center" style="width: 960px; height:auto;transform:translateY(50%) translateX(-2%)">
+  	</div>
+
+  	<div class='widget'>
+  		<div class='UVIndex'>UV INDEX
+  			<p class="center" style="color: lightslategrey; font-size:90px; font-weight: 350px; transform: translateY(-70%)"> 3 </p>
+  		</div>
+  		<img src='level-bar.png' class="center" style="width: 245px; height: auto; transform: translateY(-275%) translateX(3%)">
+  	</div>
+  	<div class='widget' style="left: 415px;">
+  		<div class='humidity'>HUMIDITY
+  			<p class="center" style="color: lightslategrey; font-size:100px; font-weight: 350px; transform: translateY(-55%)"> 65% </p>
+  		</div>
+  	</div>
+  	<div class='widget' style="left: 760px;">
+  		<div class='pollen'>POLLEN COUNT
+  			<p class="center" style="color: lightslategrey; font-size:75px; font-weight: 350px; transform: translateY(-60%)"> LOW </p>
+  			<img src='level-bar.png' class="center" style="width: 245px; height: auto; transform: translateY(-185%)">
+  		</div>
+  	</div>
+
+  	<!-- pagination at bottom -->
+	<div class='pin'><i class="fa fa-map-marker"></i></i></div>
+  	<div class='pagination'>
+        <div class='circle' style="left: 230px;"></div>
+        <div class='circle' style="left: 300px;"></div>
+        <div class='circle' style="left: 370px;"></div>
+        <div class='circle' style="left: 440px;"></div>
+    </div>
+
+    <div class="message">The UV index will rise in the afternoon. Be sure to use sun protection from 1pm - 5pm!</div>
+</body>
+
+</html>
